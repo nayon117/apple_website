@@ -1,11 +1,14 @@
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <section className=''>
-      <div className=''>
-        Welcome to App
-      </div>
-    </section>
+    <main className='bg-black'>
+        <Navbar />
+        <Hero />
+        <Highlights />
+    </main>
   )
 }
 export default App;
